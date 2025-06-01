@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./site.css">
+    <script src="./scripts.js"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo-holder">
+            <div class="logo">A</div>
+            <div class="logo-text">Portfolio</div>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="mailto:panditamar97@gmail.com" class="button">Contact Me</a>
+                </li>
+            </ul>
+            <a href="#" class="mobile-toggle" onclick="toggleMobileMenu();">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+                  </svg>                  
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero container">
+            <div class="hero-blue">
+                <div>
+                    <h1><small>Hi I'm </small>Amar Pandit</h1>
+                    <p>A versatile individual with diverse experience in security, customer service, and database management. 
+                    With a strong background in IT and web development, Amar specializes in creating responsive websites, database projects, and e-commerce portals. 
+                    He is also passionate about movies, gaming, and music, making him a creative and well-rounded professional. <span>
+                    He excels in designing responsive websites, building e-commerce portals, and developing database solutions, such as generating detailed student transcripts using SQL and FPDF.
+                    His commitment to continuous learning and passion for innovation make him a reliable and resourceful individual in both professional and personal pursuits.
+                    </span></p>
+                    <div class="call-to-action">
+                        <a href="./Amar Pandit.docx" class="button black">View Resume</a>
+                        <a href="mailto:panditamar97@gmail.com" class="button white">Contact Me</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/">
+                            <img src="./images/github.png" alt="Github" width="48">
+                        </a>
+                        <a href="https://ca.linkedin.com/">
+                            <img src="./images/linkedin.png" alt="LinkedIn" width="48">
+                        </a>
+                        <a href="https://www.instagram.com/accounts/login/">
+                            <img src="./images/instagram.png" alt="LinkedIn" width="48">
+                        </a>
+                        <a href="https://x.com/i/flow/login">
+                            <img src="./images/twitter-x.png" alt="LinkedIn" width="48">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-yellow">
+                <img src="./images/20231225_161538.jpg" alt="Amar Pandit" width="100%">
+            </div>
+        </section>
+
+        <section class="logos container">
+            <div class="marquee">
+                <div class="track">
+                    <img src="./images/html.png" alt="HTML" width="128">
+                    <img src="./images/css.png" alt="CSS" width="128">
+                    <img src="./images/javascript.png" alt="JS" width="128">
+                    <img src="./images/python.png" alt="Python" width="128">
+                    <img src="./images/vscode.png" alt="VS Code" width="128">
+                    <img src="./images/Asp.Net.png" alt="Asp.net" width="128">
+                    <img src="./images/MySQL.png" alt="MySQL" width="128">
+                    <img src="./images/PHP.png" alt="PHP" width="128">
+                    <img src="./images/wordpress.png" alt="WordPress" width="128">
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills container">
+            <h2>
+                <small>About Me</small>
+                Skills
+            </h2>
+            
+            <div class="holder-blue">
+                <div class="left-column">
+                    <h3>FrontEnd</h3>
+                    <ul>
+                        <a href="https://www.w3schools.com/html/default.asp"><li>HTML</li></a>
+                        <a href="https://www.w3schools.com/css/default.asp"><li>CSS</li></a>
+                        <a href="https://www.w3schools.com/js/default.asp"><li>JavaScript</li></a>
+                    </ul>
+                    <h3>BackEnd</h3>
+                    <ul>
+                        <a href="https://www.w3schools.com/python/default.asp"><li>Python</li></a>
+                        <a href="https://www.w3schools.com/mysql/default.asp"><li>MySQL</li></a>
+                        <a href="https://www.w3schools.com/php/default.asp"><li>PHP</li></a>
+                        <a href="https://www.w3schools.com/cs/index.php"><li>.NET</li></a>
+                    </ul>
+                </div>
+                <div class="right-column">
+                    <h3>A Bit About Me</h3>
+                    <p>Hi I am Amar Pandit, A versatile individual with diverse experience in security, customer service, and database management. 
+                    With a strong background in IT and web development, Amar specializes in creating responsive websites, database projects, and e-commerce portals.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="full-education container">
+            <h2>
+                Education
+            </h2>
+            <div class="education">
+                <article>
+                    <figure>
+                        <div>
+                            <a href="https://mcpolyjal.com/"><img src="./images/mcpoly.png" alt="Mehr Chand Polytechnic College" width="100%"></a>
+                            <figcaption>Mehr Chand Polytechnic College</figcaption><br>
+                        </div>   
+                    </figure>
+                    <h3>Diploma In Computer Engineering</h3>
+                    <div>2015-2019</div>
+                    <p>Mehr Chand Polytechnic College,</p>
+                    <p>Jalandhar, Punjab,</p>
+                    <p>India</p>
+                </article>
+
+                <article>
+                    <figure>
+                        <div>
+                            <a href="https://www.gndurcjal.in/"><img src="./images/Guru Nanak Dev University.png" alt="Guru Nanak Dev University" width="100%"></a>
+                            <figcaption>Guru Nanak Dev University</figcaption><br>
+                        </div>   
+                    </figure>
+                    <h3>B.Tech in Computer Science Engineering</h3>
+                    <div>2019-2022</div>
+                    <p>Guru Nanak Dev University(Regional Campus),</p>
+                    <p>Jalandhar, Punjab,</p>
+                    <p>India</p>
+                </article>
+
+                <article>
+                    <figure>
+                        <div>
+                            <a href="https://www.conestogac.on.ca/"><img src="./images/Conestoga College.png" alt="Conestoga College" width="100%"></a>
+                            <figcaption>Conestoga College</figcaption><br>
+                        </div>   
+                    </figure>
+                    <h3>Ontario College Graduate Certificate<br>(Web Development-1536)</h3>
+                    <div>2024-2025</div>
+                    <p>Conestoga College - Doon Campus,</p>
+                    <p>Kitchener, ON,</p>
+                    <p>Canada</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="projects" class="bento container">
+            <h2>
+                Completed Projects
+            </h2>
+            <div class="bento-grid">
+                <div class="bento-item">
+                    <img src="./images/database-1.png" alt="database" width="100%">
+                </div>
+                <div class="bento-item">
+                    <img src="./images/database-2.png" alt="database" width="100%">
+                </div>
+                <div class="bento-item">
+                    <img src="./images/mobile-1.png" alt="mobile" width="100%">
+                </div>
+                <div class="bento-item">
+                    <img src="./images/mobile-2.png" alt="mobile" width="100%">
+                </div>
+                <div class="bento-item">
+                    <img src="./images/php-1.png" alt="php" width="100%">
+                </div>
+                <div class="bento-item">
+                    <img src="./images/php-2.png" alt="php" width="100%">
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact container">
+            <div class="map">
+                <h3>Find Me Here:</h3>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5792.940971931781!2d-80.4688225641654!3d43.45077387330419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf4b87e4613e9%3A0x422e0d3d72b75210!2s301%20Pandora%20Ave%20N%2C%20Kitchener%2C%20ON%20N2H%203E4!5e0!3m2!1sen!2sca!4v1735373492754!5m2!1sen!2sca"
+                    width="600" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy"></iframe>
+            </div>
+        </section>
+        
+    </main>
+</body>
+</html>
